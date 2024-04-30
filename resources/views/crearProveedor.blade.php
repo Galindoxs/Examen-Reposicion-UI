@@ -14,6 +14,7 @@
         <form action="{{route('Proveedores.crear')}}" method="POST">
             @csrf
             <input type="text" name="nombre" placeholder="nombre"><br><br>
+            <label for="fecharegistro"> Fecha de Registro</label><br>
             <input type="date" name="fecharegistro" placeholder="fecha registro"><br><br>
             <input type="text" name="telefono" placeholder="telefono"><br><br>
             <input type="text" name="correo" placeholder="correo"><br><br>

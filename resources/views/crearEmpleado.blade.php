@@ -14,6 +14,7 @@
             @csrf
             <input type="text" name="nombre" placeholder="nombre"><br><br>
             <input type="text" name="apellido" placeholder="apellido"><br><br>
+            <label for="fechaingreso"> Fecha de Ingreso</label><br>
             <input type="date" name="fechaingreso" placeholder="fecha Ingreso"><br><br>
             <input type="number" name="salario" placeholder="salario"><br><br>
             
